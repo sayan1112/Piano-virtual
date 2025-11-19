@@ -115,26 +115,31 @@ footer p{
     flex-direction: row;
     position: relative;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items:flex-end;
+    background-color: white;
+   
+
 }
 .btn-black.ab3{
     top: 0;
-    left:370px
+    left:490px
 }
 .btn-black.ab4{
     top: 0;
-    left: 460px;
+    left: 580px;
 }
 .btn-black.bb3{
     top:0;
-    left: 630px
+    left: 750px
 }
 .btn-black.db3{
     top: 0;
-    left: 715px
+    left: 830px
 }
 .btn-black.eb3{
     top: 0;
-    left: 800px;
+    left: 910px;
 }
 .btn-black::before{
     content: attr(data-key);
@@ -175,6 +180,11 @@ footer p{
 }
 .btn-white.b3{
     z-index: 0;
-};
+}
 
 
+.btn-white{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
