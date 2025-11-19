@@ -118,23 +118,23 @@ footer p{
 }
 .btn-black.ab3{
     top: 0;
-    left:494px
+    left:370px
 }
 .btn-black.ab4{
     top: 0;
-    left: 580px;
+    left: 460px;
 }
 .btn-black.bb3{
     top:0;
-    left: 745px
+    left: 630px
 }
 .btn-black.db3{
     top: 0;
-    left: 828px
+    left: 715px
 }
 .btn-black.eb3{
     top: 0;
-    left: 910px;
+    left: 800px;
 }
 .btn-black::before{
     content: attr(data-key);
